@@ -57,7 +57,7 @@ const Formulario = (props) => {
                     itens={props.times}
                     valor={time}
                     aoAlterado={valor => setTime(valor)}
-                ></ListaSuspensa>
+                />
                 <Botao>Criar card</Botao>
             </form>
         </section>
